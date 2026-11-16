@@ -24,7 +24,7 @@
 | Project | What it does | Stack |
 |---|---|---|
 | **ActionNet**: video action recognition | Compared ConvLSTM2D and LRCN (CNN + LSTM) on UCF50. LRCN reached **93% test accuracy** (vs. 91%). Includes a real-time pipeline that pulls YouTube videos and overlays live predictions over a sliding 20-frame window. | TensorFlow · Keras · OpenCV · yt-dlp |
-| **Sarcasm Detection** | Fine-tuned DistilBERT on news headlines: **93.1% accuracy, 0.931 weighted F1**, 14+ points over a Naive Bayes baseline (78.6%). | PyTorch · HuggingFace Transformers · scikit-learn |
+| **[Sarcasm Detection](https://github.com/YashPatel54/sarcasm-detection-distilbert)** | Fine-tuned DistilBERT on news headlines: **93.1% accuracy, 0.931 weighted F1**, 14+ points over a Naive Bayes baseline (78.6%). | PyTorch · HuggingFace Transformers · scikit-learn |
 | **[Augmentation & Test-Time Adaptation](https://github.com/KirtanPatel30/Augmentation-Test-time-Adaptation)** | CMPE 252 team research project on how training-time augmentation interacts with test-time adaptation (Tent, including continual Tent with periodic resets) under distribution shift. | PyTorch |
 | **YOLOv8 Traffic Audit** | CMPE 253 governance audit of a YOLOv8 traffic analytics pipeline: offline robustness and adversarial-patch experiments. | PyTorch · YOLOv8 |
 | **[Chest X-Ray Classifier](https://github.com/YashPatel54/chest-xray-classifier)** | Deep learning classifier for chest X-ray images. | Python · PyTorch |
